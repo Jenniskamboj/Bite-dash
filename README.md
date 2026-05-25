@@ -1,177 +1,156 @@
-# FOOD 🍔  - Food Ordering Website 
+# FOOD 🍔 - Food Ordering Website
 
-This repository hosts the source code for FOOD, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
+FOOD is a dynamic food ordering website built using the **MERN Stack**. It provides a smooth and user-friendly platform for browsing food items, adding them to cart, and placing orders from specific restaurants.
 
-# BCA 3rd year Project!
-### student Names  :
-1) Dev Vijay
-2) Sonali Nagar
-3) Vijay Malav
-4) Khushi Talreja
+## 🚀 Features
 
-## Demo  🍕
-
-- User Panel: ( https://devvj-1.github.io/Food-order-website/ )
-  
-## Features
-
-- Login/Signup
-- Logout
+- User Authentication (Login / Signup)
+- Logout Functionality
 - Add to Cart
 - Place Order
-- Place Order from Specific restaurants
+- Order from Specific Restaurants
 - Order Management
-- Filter Food Products
-- Beautiful Alerts
+- Product Filtering
+- Interactive Alerts
+- Responsive Design
+- Clean User Interface
 
-## Screenshots 
+---
 
-- Our Customers Reviews ⭐⭐⭐
+## 📸 Screenshots
 
-![Screenshot 2025-04-03 134719](https://github.com/user-attachments/assets/c365a59d-ba12-4c7c-82b1-c1a8721dc94a)
+### Customer Reviews
+![Customer Reviews](https://github.com/user-attachments/assets/c365a59d-ba12-4c7c-82b1-c1a8721dc94a)
 
+### Landing Page
+![Landing Page](https://github.com/user-attachments/assets/bfa1b582-b54a-4af9-af09-f082a91ed71f)
 
-  
-- Landing Page with New Logo
+### Home Page
+![Home Page](https://github.com/user-attachments/assets/2bfc68c7-e24b-4c7c-82b1-c1a8721dc94a)
 
-![Screenshot 2025-04-03 113628](https://github.com/user-attachments/assets/bfa1b582-b54a-4af9-af09-f082a91ed71f)
+### Products Section
+![Products Section](https://github.com/user-attachments/assets/bd42898a-2875-4edb-9e96-ada9d1aad79c)
 
+### Cart Page
+![Cart Page](https://github.com/user-attachments/assets/5dbc8d25-311e-4a65-9fed-c3e573721b1c)
 
-![Screenshot 2025-03-22 111058](https://github.com/user-attachments/assets/2bfc68c7-e24b-4c26-8ed5-f3f82291a589)
+### Login Popup
+![Login Popup](https://github.com/user-attachments/assets/45236576-f6a9-4ce8-8e26-7d2a2024f293)
 
-- Products Section
+---
 
-![Screenshot 2025-03-22 110903](https://github.com/user-attachments/assets/bd42898a-2875-4edb-9e96-ada9d1aad79c)
+## 🛠️ Tech Stack
 
-- Cart Page
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Tailwind CSS
+- FontAwesome
+- Custom CSS
 
-![Screenshot 2025-03-22 110938](https://github.com/user-attachments/assets/5dbc8d25-311e-4a65-9fed-c3e573721b1c)
+### Backend
+- Node.js
+- Express.js
 
-- Login Popup
+### Database
+- MongoDB
 
-![Screenshot 2025-03-22 111024](https://github.com/user-attachments/assets/45236576-f6a9-4ce8-8e26-7d2a2024f293)
+---
 
-- Meet Our Team
+## ⚙️ Installation & Setup
 
-![Screenshot 2025-04-03 134447](https://github.com/user-attachments/assets/5bf6ec99-4db7-4596-82c0-cb9733c80ba8)
-
-
-## Run Locally
-
-Clone the Frontend and backend project files
-
-Frontend 🍝 :
-```
-    https://github.com/DevVj-1/Food-order-website.git
-```
-Backend 🫕:
-```
-    https://github.com/DevVj-1/Food-order-website-backend.git
-```
-
-Go to the project directory
-
-```bash
-    cd Food-Delivery
-```
-Install dependencies (frontend)
+### 1. Clone the repository
 
 ```bash
-    cd .\Food-order-website\
-    npm install
+git clone <your-repository-url>
+cd Food-Delivery
 ```
 
-Install dependencies (backend)
-
-Navigate to your project directory 
-```bash
-    cd .\Food-order-website-backend\  
-    npm install
-```
-Setup Environment Vaiables
-
-```
-Make .env file in "backend" folder and store environment Variables
-
-  EMAIL_USER=Test7113@gmail.com
-  EMAIL_PASS=pass123
-  MONGODB_URI=mongodb+srv://Test7113:Test1234@cluster0.zfriu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
- ```
-
-
-
-
-Start the Frontend server
+### 2. Install Frontend Dependencies
 
 ```bash
-    npm start
+cd Food-order-website
+npm install
 ```
 
-Start the Backend server
+### 3. Install Backend Dependencies
 
-Step 1:
+```bash
+cd Food-order-website-backend
+npm install
+```
 
-![run_backend](https://github.com/user-attachments/assets/e6a4b799-97e6-4fa0-b12d-22e1644883d3)
+### 4. Setup Environment Variables
 
-Step 2:
+Create a `.env` file inside the backend folder and add:
 
-Go to the https://cloud.mongodb.com/ and configer Ip server address on Network accessList:
+```env
+EMAIL_USER=your_email
+EMAIL_PASS=your_password
+MONGODB_URI=your_mongodb_connection_string
+```
 
+### 5. Start Frontend
 
-![Screenshot 2025-03-30 113434](https://github.com/user-attachments/assets/8c36ce5b-cb64-44ad-a991-ca2afade6ab0)
+```bash
+npm start
+```
 
+### 6. Start Backend
 
-Step 3:
-If you want to see users you can go to " Clusters >  Browse Collections > Users > food-users
+```bash
+npm run server
+```
 
-![database-usr](https://github.com/user-attachments/assets/cca24bf6-9f98-439c-8eee-9b40e2959da4)
+---
 
+## 📂 Project Structure
 
+```bash
+FOOD/
+│── Food-order-website/        # Frontend
+│── Food-order-website-backend/# Backend
+│── README.md
+```
 
-##
-##
+---
 
-## Tech Stack 🍜
-* [Node.js](https://nodejs.org/en)  (as the backend runtime environment)
-* [Express.js](https://expressjs.com/) (as a backend framework for handling routes)
-* [Mongodb](https://www.mongodb.com/) ( as DataBase ) 
+## 🌟 Key Functionalities
 
+✔ User Registration & Login  
+✔ Restaurant-based Food Ordering  
+✔ Cart Management  
+✔ Order Placement  
+✔ Product Filtering  
+✔ Mobile Responsive UI  
+✔ Secure Database Integration
 
-## Frontend Technologies:
-  
-HTML5 - Structure of the webpage.
+---
 
-CSS3 - Styling and layout.
+## 🚀 Deployment
 
-Bootstrap (CDN) - For responsive design.
+The application can be deployed on:
 
-Tailwind CSS - Another styling framework used.
+- Render
+- GitHub Pages
+- Vercel
+- Netlify
 
-Custom CSS (index.css, navbar1.css, login1.css).
+---
 
-JavaScript - Provides interactivity and dynamic content.
+## 📌 Future Improvements
 
-Vanilla JS (index.js, login1.js).
+- Online Payment Integration
+- Real-time Order Tracking
+- Admin Dashboard
+- Wishlist Feature
+- User Profile Management
+- Food Search Suggestions
 
-FontAwesome Icons (for UI enhancements).
+---
 
-Bootstrap JavaScript (for modals, dropdowns, and other UI components).
+## 📖 About Project
 
-## Backend Technologies 🌭:
-
-Node.js with Express.js (Common for handling APIs)
-
-## Database 🥪 :
-
-* MongoDB 
-
-
-## Deployment 🍱
-
-The application can be deployed on Render or Github.
-
-
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/dev-vj1/)
+This project was developed as a **Food Ordering Web Application** to provide a seamless experience for users to explore restaurants, browse products, and place food orders efficiently.
