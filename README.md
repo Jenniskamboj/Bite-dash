@@ -8,7 +8,7 @@ Jenniskamboj
 
 ## Demo  🍕
 
-- User Panel: ( https://devvj-1.github.io/Food-order-website/ )
+- User Panel: (https://jenniskamboj.github.io/bite-dash/) 
   
 ## Features
 
