@@ -2,25 +2,10 @@
 
 FOOD is a dynamic food ordering website built using the **MERN Stack**. It provides a smooth and user-friendly platform for browsing food items, adding them to cart, and placing orders from specific restaurants.
 
-<<<<<<< HEAD
 ## 🚀 Features
 
 - User Authentication (Login / Signup)
 - Logout Functionality
-=======
-# Btech 2nd year Project!
-### student Names  :
-Jenniskamboj
-
-## Demo  🍕
-
-- User Panel: (https://devvj-1.github.io/Food-order-website/) 
-  
-## Features
-
-- Login/Signup
-- Logout
->>>>>>> aadcaf1c5d548499b8f95c653b85129d1f983e9c
 - Add to Cart
 - Place Order
 - Order from Specific Restaurants
